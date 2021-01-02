@@ -22,6 +22,7 @@ body {
     transition: transform 0.4s linear;
 }
 
+
 .container.show-nav {
     transform: rotate(-20deg);
 }
@@ -37,9 +38,12 @@ body {
     width: 200px;
     border-radius: 50%;
     position: relative;
-    transition: transform 0.5s linear;
+    transition: transform 0.4s linear;
 }
-
+    /* when  we get the class show-nav we rotate the circle to see the close button */
+    .container.show-nav .circle {
+        transform: rotate(-70deg);
+    }
 .circle button {
     cursor: pointer;
     position: absolute;
@@ -66,6 +70,7 @@ body {
     transform: translateX(0);
     transition-delay: 0.3s;
 }
+
 nav {
     position: fixed;
     bottom: 40px;
