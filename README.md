@@ -21,4 +21,4 @@ All projects are done with CSS and Vanilla JS
 |8| Form input waves | [Link](https://gvisis.github.io/50-projects-50-days/8-form-input-wave/) |
 |9| Sound board | [Link](https://gvisis.github.io/50-projects-50-days/9-sound-board/) |
 
-(c) [gvisis](https://github.com/gvisis) :motorcycle:
+[gvisis](https://github.com/gvisis) :motorcycle:
