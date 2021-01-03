@@ -14,5 +14,6 @@ All projects are done with CSS and Vanilla JS
 | Expanding Cards | [Link](https://gvisis.github.io/50-projects-50-days/1-expanding-cards) |
 | Progress Steps | [Link](https://gvisis.github.io/50-projects-50-days/2-progress-steps) |
 | Rotating Navigation | [Link](https://gvisis.github.io/50-projects-50-days/3-rotating-navigation) |
+| Hidden Search Widget | [Link](https://gvisis.github.io/50-projects-50-days/4-hidden-search-widget) |
 
 (c) [gvisis](https://github.com/gvisis) :motorcycle:
