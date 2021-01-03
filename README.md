@@ -17,5 +17,6 @@ All projects are done with CSS and Vanilla JS
 |4| Hidden Search Widget | [Link](https://gvisis.github.io/50-projects-50-days/4-hidden-search/) |
 |5| Background Image & Loading Text | [Link](https://gvisis.github.io/50-projects-50-days/5-bg-loading/) |
 |6| Scroll animation | [Link](https://gvisis.github.io/50-projects-50-days/6-scroll-animation/) |
+|7| Split landing page | [Link](https://gvisis.github.io/50-projects-50-days/7-split-landing-page/) |
 
 (c) [gvisis](https://github.com/gvisis) :motorcycle:
