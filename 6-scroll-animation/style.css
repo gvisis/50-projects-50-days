@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* If we apply padding or margin, border-box means that it doesn't affect the width of it */
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #efedd6;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.box {
+    background-color: #4682b4;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px #00000030;
+    transform: translateX(400%);
+    transition: transform 0.6s ease;
+}
+.box:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+.box.show {
+    transform: translateX(0);
+}
+.box h2 {
+    font-size: 44px;
+}

@@ -9,12 +9,13 @@ Doing these little CSS and JS projects to improve my skills and learn a lot of n
 
 All projects are done with CSS and Vanilla JS 
 
-| Project | Website |
-|----------|:-------------:|
-| Expanding Cards | [Link](https://gvisis.github.io/50-projects-50-days/1-expanding-cards/) |
-| Progress Steps | [Link](https://gvisis.github.io/50-projects-50-days/2-progress-steps/) |
-| Rotating Navigation | [Link](https://gvisis.github.io/50-projects-50-days/3-rotating-navigation/) |
-| Hidden Search Widget | [Link](https://gvisis.github.io/50-projects-50-days/4-hidden-search/) |
-| Background Image & Loading Text | [Link](https://gvisis.github.io/50-projects-50-days/5-bg-loading/) |
+|#| Project | Website |
+|-|----------|:-------------:|
+|1| Expanding Cards | [Link](https://gvisis.github.io/50-projects-50-days/1-expanding-cards/) |
+|2| Progress Steps | [Link](https://gvisis.github.io/50-projects-50-days/2-progress-steps/) |
+|3| Rotating Navigation | [Link](https://gvisis.github.io/50-projects-50-days/3-rotating-navigation/) |
+|4| Hidden Search Widget | [Link](https://gvisis.github.io/50-projects-50-days/4-hidden-search/) |
+|5| Background Image & Loading Text | [Link](https://gvisis.github.io/50-projects-50-days/5-bg-loading/) |
+|6| Scroll animation | [Link](https://gvisis.github.io/50-projects-50-days/6-scroll-animation/) |
 
 (c) [gvisis](https://github.com/gvisis) :motorcycle:
