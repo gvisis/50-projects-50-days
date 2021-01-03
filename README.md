@@ -18,5 +18,6 @@ All projects are done with CSS and Vanilla JS
 |5| Background Image & Loading Text | [Link](https://gvisis.github.io/50-projects-50-days/5-bg-loading/) |
 |6| Scroll animation | [Link](https://gvisis.github.io/50-projects-50-days/6-scroll-animation/) |
 |7| Split landing page | [Link](https://gvisis.github.io/50-projects-50-days/7-split-landing-page/) |
+|8| Form input waves | [Link](https://gvisis.github.io/50-projects-50-days/8-form-input-wave/) |
 
 (c) [gvisis](https://github.com/gvisis) :motorcycle:
