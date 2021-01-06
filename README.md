@@ -21,6 +21,7 @@ Projects are done with CSS and Vanilla JS
 |8| Form input waves | [Link](https://gvisis.github.io/50-projects-50-days/form-input-wave/) |
 |9| Sound board | [Link](https://gvisis.github.io/50-projects-50-days/sound-board/) |
 |10| Dad jokes | [Link](https://gvisis.github.io/50-projects-50-days/dad-jokes/) |
-|10| Key boxes | [Link](https://gvisis.github.io/50-projects-50-days/key-boxes/) |
+|11| Key boxes | [Link](https://gvisis.github.io/50-projects-50-days/key-boxes/) |
+|12| FAQ Cards | [Link](https://gvisis.github.io/50-projects-50-days/faq/) |
 
 [gvisis](https://github.com/gvisis) :motorcycle:
