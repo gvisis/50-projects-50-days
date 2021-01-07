@@ -23,5 +23,6 @@ Projects are done with CSS and Vanilla JS
 |10| Dad jokes | [Link](https://gvisis.github.io/50-projects-50-days/dad-jokes/) |
 |11| Key boxes | [Link](https://gvisis.github.io/50-projects-50-days/key-boxes/) |
 |12| FAQ Cards | [Link](https://gvisis.github.io/50-projects-50-days/faq/) |
+|13| Nav styling | [Link](https://gvisis.github.io/50-projects-50-days/nav-styling/) |
 
 [gvisis](https://github.com/gvisis) :motorcycle:
