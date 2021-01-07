@@ -24,5 +24,6 @@ Projects are done with CSS and Vanilla JS
 |11| Key boxes | [Link](https://gvisis.github.io/50-projects-50-days/key-boxes/) |
 |12| FAQ Cards | [Link](https://gvisis.github.io/50-projects-50-days/faq/) |
 |13| Nav styling | [Link](https://gvisis.github.io/50-projects-50-days/nav-styling/) |
+|14| Increment counter | [Link](https://gvisis.github.io/50-projects-50-days/increment-counter/) |
 
 [gvisis](https://github.com/gvisis) :motorcycle:
