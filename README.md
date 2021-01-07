@@ -25,5 +25,6 @@ Projects are done with CSS and Vanilla JS
 |12| FAQ Cards | [Link](https://gvisis.github.io/50-projects-50-days/faq/) |
 |13| Nav styling | [Link](https://gvisis.github.io/50-projects-50-days/nav-styling/) |
 |14| Increment counter | [Link](https://gvisis.github.io/50-projects-50-days/increment-counter/) |
+|15| Drink water | [Link](https://gvisis.github.io/50-projects-50-days/drink-water/) |
 
 [gvisis](https://github.com/gvisis) :motorcycle:
