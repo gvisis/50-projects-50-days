@@ -27,5 +27,6 @@ Projects are done with CSS and Vanilla JS
 |14| Increment counter | [Link](https://gvisis.github.io/50-projects-50-days/increment-counter/) |
 |15| Drink water | [Link](https://gvisis.github.io/50-projects-50-days/drink-water/) |
 |16| Movie app | [Link](https://gvisis.github.io/50-projects-50-days/movie-app/) |
+|17| Background slider | [Link](https://gvisis.github.io/50-projects-50-days/background-slider/) |
 
 [gvisis](https://github.com/gvisis) :motorcycle:
