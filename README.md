@@ -28,5 +28,6 @@ Projects are done with CSS and Vanilla JS
 |15| Drink water | [Link](https://gvisis.github.io/50-projects-50-days/drink-water/) |
 |16| Movie app | [Link](https://gvisis.github.io/50-projects-50-days/movie-app/) |
 |17| Background slider | [Link](https://gvisis.github.io/50-projects-50-days/background-slider/) |
+|18| Theme clock | [Link](https://gvisis.github.io/50-projects-50-days/theme-clock/) |
 
 [gvisis](https://github.com/gvisis) :motorcycle:
