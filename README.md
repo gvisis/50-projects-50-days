@@ -31,5 +31,6 @@ Projects are done with CSS and Vanilla JS
 |18| Theme clock | [Link](https://gvisis.github.io/50-projects-50-days/theme-clock/) |
 |19| Button Ripple Effect | [Link](https://gvisis.github.io/50-projects-50-days/button-ripple-effect/) |
 |20| Drag n Drop | [Link](https://gvisis.github.io/50-projects-50-days/drag-n-drop/) |
+|21| Drawing app | [Link](https://gvisis.github.io/50-projects-50-days/drawing-app/) |
 
-[gvisis](https://github.com/gvisis) :motorcycle:
+[gvisis](https://github.com/gvisis)
