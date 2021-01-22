@@ -34,5 +34,7 @@ Projects are done with CSS and Vanilla JS
 |21| Drawing app | [Link](https://gvisis.github.io/50-projects-50-days/drawing-app/) |
 |22| Kinetic loader | [Link](https://gvisis.github.io/50-projects-50-days/kinetic-loader/) |
 |23| Content placeholder | [Link](https://gvisis.github.io/50-projects-50-days/content-placeholder/) |
+|24| Sticky navigation | [Link](https://gvisis.github.io/50-projects-50-days/sticky-nav/) |
+
 
 [gvisis](https://github.com/gvisis)
