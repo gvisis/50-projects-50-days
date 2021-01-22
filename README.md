@@ -33,5 +33,6 @@ Projects are done with CSS and Vanilla JS
 |20| Drag n Drop | [Link](https://gvisis.github.io/50-projects-50-days/drag-n-drop/) |
 |21| Drawing app | [Link](https://gvisis.github.io/50-projects-50-days/drawing-app/) |
 |22| Kinetic loader | [Link](https://gvisis.github.io/50-projects-50-days/kinetic-loader/) |
+|23| Content placeholder | [Link](https://gvisis.github.io/50-projects-50-days/content-placeholder/) |
 
 [gvisis](https://github.com/gvisis)
