@@ -19,9 +19,10 @@ function getData() {
   profile_img.innerHTML = `<img src="https://randomuser.me/api/portraits/men/41.jpg" alt="profile picture">`;
   nameDOM.innerHTML = `John Doe`;
   date.innerHTML = `Jan 22, 2021`
+  
+  // removes the animated classes
+  animated_bgs.forEach(bg => bg.classList.remove('animated-bg'));
+  animated_bg_texts.forEach(bg => bg.classList.remove('animated-bg-text'));
 }
 
-// removes the animated classes
-animated_bgs.forEach(bg => bg.classList.remove('animated-bg'));
-animated_bg_texts.forEach(bg => bg.classList.remove('animated-bg-text'));
 
