@@ -4,13 +4,13 @@ module.exports = {
     es2021: true,
   },
 
-  extends: ["eslint:recommended", "prettier"],
+  extends: ["eslint:recommended", "prettier", "plugin:css-modules/recommended"],
 
   parserOptions: {
     ecmaVersion: 12,
     sourceType: "module",
   },
-
+  plugins: ["css-modules"],
   rules: {
     "curly": ["error", "all"],
     "lines-around-comment": [
@@ -29,6 +29,7 @@ module.exports = {
       },
     ],
     "no-mixed-operators": "error",
-    "no-confusing-arrow": ["error", { allowParens: false }],
+    "no-confusing-arrow": ["error", { allowParens: false }]
   },
+
 };
