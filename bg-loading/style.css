@@ -1,37 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu");
 
 /* If we apply padding or margin, border-box means that it doesn't affect the width of it */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Ubuntu', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    /* no scroll bars shown by default */
-    overflow: hidden;
-    margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* no scroll bars shown by default */
+  overflow: hidden;
+  margin: 0;
 }
 
 .bg {
-    background: url('https://images.pexels.com/photos/34006/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center/cover;
-    position: absolute;
+  background: url("https://images.pexels.com/photos/34006/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat center center/cover;
+  position: absolute;
 
-    /* 
+  /* 
     When the blur is set to 70px the sides has a white spaces, for that reason we need to move the bg picture BACK ( top- and left-).
     And expand pictures size using calc(100vw + 60px);
     */
-    top: -30px;
-    left: -30px;
-    width: calc(100vw + 60px);
-    height: calc(100vh + 60px);;
-    z-index: -1;
-    filter: blur(70px);
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(70px);
 }
 
 .loading-text {
-    font-size: 50px;
-    color: #fff;
+  font-size: 50px;
+  color: #fff;
 }

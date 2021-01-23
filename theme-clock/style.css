@@ -94,7 +94,7 @@ body {
 
 /* black dot */
 .center-point::after {
-  content: '';
+  content: "";
   background-color: var(--primary-color);
   width: 5px;
   height: 5px;

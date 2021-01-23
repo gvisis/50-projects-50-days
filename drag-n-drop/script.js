@@ -1,45 +1,44 @@
-const fillDOM = document.querySelector('.fill');
-const emptyDOM = document.querySelectorAll('.empty');
+const fillDOM = document.querySelector(".fill");
+const emptyDOM = document.querySelectorAll(".empty");
 
 // we want two events to start when dragging full div.
-fillDOM.addEventListener('dragstart', dragStart)
-fillDOM.addEventListener('dragend', dragEnd)
+fillDOM.addEventListener("dragstart", dragStart);
+fillDOM.addEventListener("dragend", dragEnd);
 
 for (const empty of emptyDOM) {
-  empty.addEventListener('dragover', dragOver);
-  empty.addEventListener('dragenter', dragEnter);
-  empty.addEventListener('dragleave', dragLeave);
-  empty.addEventListener('drop', dragDrop);
+  empty.addEventListener("dragover", dragOver);
+  empty.addEventListener("dragenter", dragEnter);
+  empty.addEventListener("dragleave", dragLeave);
+  empty.addEventListener("drop", dragDrop);
 }
 
-function dragStart(){
+function dragStart() {
   // append the class
-  this.className += ' hold';
+  this.className += " hold";
   //sets the box that the picture is taken from to invisible with a little timer, giving us time to click it.
-  setTimeout(() => this.className = ' invisible', 0);
+  setTimeout(() => (this.className = " invisible"), 0);
 }
 // puts it to the same place, because that element still has fill class.
-function dragEnd(){
-  this.className= 'fill';
+function dragEnd() {
+  this.className = "fill";
 }
 
-function dragOver(e){
+function dragOver(e) {
   // it has default eventlistener that needs to be canceled.
-  e.preventDefault()
-
+  e.preventDefault();
 }
 
-function dragEnter(e){
-  e.preventDefault()
-  this.className += ' hovered'
+function dragEnter(e) {
+  e.preventDefault();
+  this.className += " hovered";
 }
 
-function dragLeave(){
-  this.className = 'empty'
+function dragLeave() {
+  this.className = "empty";
 }
 
-function dragDrop(){
+function dragDrop() {
   // we want to make sure it has class empty, and has an element of fill before we drop on it.
-  this.className = 'empty';
+  this.className = "empty";
   this.append(fillDOM);
 }
