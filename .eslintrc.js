@@ -12,7 +12,7 @@ module.exports = {
   },
 
   rules: {
-    curly: ["error", "all"],
+    "curly": ["error", "all"],
     "lines-around-comment": [
       "error",
       {
