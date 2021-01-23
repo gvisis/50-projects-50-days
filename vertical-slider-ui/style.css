@@ -23,6 +23,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  transition: transform 0.8s ease-in-out;
 }
 
 /* sets the first div in the left-slide */
@@ -50,6 +51,7 @@ body {
   top: 0;
   left: 35%;
   width: 65%;
+  transition: transform 0.8s ease-in-out;
 }
 .right-slide > div {
   background-repeat: no-repeat;
