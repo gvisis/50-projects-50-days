@@ -9,7 +9,8 @@
     "eslint-plugin-css-modules": "^2.11.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/gvisis/50-projects-50-days/issues"
   },
-  "homepage": "https://github.com/gvisis/50-projects-50-days#readme"
+  "homepage": "https://github.com/gvisis/50-projects-50-days#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }
