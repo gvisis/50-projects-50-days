@@ -20,7 +20,8 @@ async function getUser(username) {
 
 async function getRepos(username) {
   try {
-    const { data } = await axios(APIURL + username + '/repos');
+    // sorts by latest repos created
+    const { data } = await axios(APIURL + username + '/repos?sort=created');
     addReposToCard(data)
   } catch (err) {
     createErrorCard('Problem fetching repos')
@@ -52,7 +53,7 @@ function addReposToCard(repos) {
 
   repos
     //will show only 10 repos
-    .slice(0, 10)
+    .slice(0, 5)
     .forEach(repo => {
       // for each repo we create a link
       // would be easer to generate html as well.. ?
