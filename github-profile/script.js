@@ -9,12 +9,21 @@ async function getUser(username) {
   // destructured json
   try {
     const { data } = await axios(APIURL + username);
-    console.log(data)
-    createUserCard(data)
+    createUserCard(data);
+    getRepos(username);
   } catch (err) {
     if (err.response.status == 404) {
       createErrorCard('No user found')
     }
+  }
+}
+
+async function getRepos(username) {
+  try {
+    const { data } = await axios(APIURL + username + '/repos');
+    addReposToCard(data)
+  } catch (err) {
+    createErrorCard('Problem fetching repos')
   }
 }
 
@@ -32,14 +41,34 @@ function createUserCard(user) {
                       <li>${user.public_repos} <strong>Repos</strong></li>
                     </ul>
                     <div id="repos">
-                      <a href="#" class="repo">Repo 1</a>
-                      <a href="#" class="repo">Repo 2</a>
-                      <a href="#" class="repo">Repo 3</a>
                     </div>
                   </div>
                 </div > `
   main.innerHTML = cardHTML;
 }
+
+function addReposToCard(repos) {
+  const reposEl = document.getElementById('repos');
+
+  repos
+    //will show only 10 repos
+    .slice(0, 10)
+    .forEach(repo => {
+      // for each repo we create a link
+      // would be easer to generate html as well.. ?
+      const repoEl = document.createElement('a')
+      repoEl.classList.add('repo');
+
+      // repository object
+      repoEl.href = repo.html_url;
+
+      repoEl.target = '_blank';
+      repoEl.innerText = repo.name;
+
+      reposEl.appendChild(repoEl);
+    })
+}
+
 function createErrorCard(msg) {
   const cardHTML = `
     <div class="card">
