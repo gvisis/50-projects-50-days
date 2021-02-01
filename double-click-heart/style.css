@@ -46,7 +46,7 @@ small {
 
 @keyframes grow {
   to {
-    transform: translate(-50%, -50%) scale(10);
+    transform: translate(-50%, -50%) scale(6);
     opacity: 0;
   }
 }
