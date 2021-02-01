@@ -34,5 +34,6 @@ Projects are done with CSS and Vanilla JS
 | 24 | Sticky navigation | [Link](https://gvisis.github.io/50-projects-50-days/sticky-nav/) |
 | 25 | Vertical slider | [Link](https://gvisis.github.io/50-projects-50-days/vertical-slider-ui/) |
 | 26 | Github profile | [Link](https://gvisis.github.io/50-projects-50-days/github-profile/) |
+| 27 | Double click heartbeat | [Link](https://gvisis.github.io/50-projects-50-days/double-click-heart/) |
 
 [gvisis](https://github.com/gvisis)
